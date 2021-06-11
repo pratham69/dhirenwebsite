@@ -37,7 +37,7 @@ const PorfolioScreen = () => {
                 <Col xs="12">
 
                 <Row>
-                    
+                                             
                         {
                             portfolioData.map((item,index)=>{
                                 return(
