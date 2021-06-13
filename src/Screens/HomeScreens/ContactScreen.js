@@ -9,7 +9,7 @@ import ShadowCardContainer from '../../Components/ShadowCardContainer'
 
 const ContactScreen = () => {
 
-    const [fontHeaderSize,setFontHeaderSize] =useState('5em')   
+    const [fontHeaderSize,setFontHeaderSize] =useState('5em')
 
 
     useEffect(() => {
@@ -23,20 +23,20 @@ const ContactScreen = () => {
                 <Col xs="12">
                     <h1 className="headingText font-extrabold my-1" style={{fontSize:`${fontHeaderSize}`}}> Contact </h1>
                     <p className="h2 my-2" >
-                    Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid 
-                        fuga eum quidem. Sit sint 
-                        consectetur velit. Quisquam 
-                        quos quisquam cupiditate. Et nemo qui 
-                        impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas., 
+                    Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid
+                        fuga eum quidem. Sit sint
+                        consectetur velit. Quisquam
+                        quos quisquam cupiditate. Et nemo qui
+                        impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.,
                     </p>
                 </Col>
-                
 
-                
+
+
                 <Col className="my-2 " >
-                
+
                     <Row>
-                        <Col xs="12" md="4" lg="4" xl="4">
+                        <Col xs="12" md="12" lg="5" xl="4" className="my-2">
                         <ShadowCardContainer>
                         <ListGroup variant="flush" data-aos="fade-right">
                             {
@@ -55,14 +55,14 @@ const ContactScreen = () => {
                                             </Col>
                                         </Row>
                                     </ListGroup.Item>
-                                    )   
-                                    
+                                    )
+
                                 })
                             }
                         </ListGroup>
                         </ShadowCardContainer>
                         </Col>
-                        <Col xs="12" md="8" lg="8" xl="8" data-aos="fade-left">
+                        <Col xs="12" md="12" lg="7" xl="8" data-aos="fade-left">
                             <ShadowCardContainer>
                             <Form>
 
@@ -93,7 +93,7 @@ const ContactScreen = () => {
                                         </Form.Group>
                                     </Col>
                                 </Row>
-                                
+
 
                                 <div className="d-grid gap-2">
                                 <Button variant="primary" type="submit" block={true}>
@@ -104,7 +104,7 @@ const ContactScreen = () => {
                             </ShadowCardContainer>
                         </Col>
                     </Row>
-                    
+
                 </Col>
             </Row>
             <Row style={{height:'300px'}}>

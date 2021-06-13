@@ -9,7 +9,7 @@ import { CardData } from '../../Data/CardData';
 import Aos from 'aos'
 
 const SkillsScreen = () => {
-    const [fontHeaderSize,setFontHeaderSize] =useState('5em')   
+    const [fontHeaderSize,setFontHeaderSize] =useState('5em')
 
 
     useEffect(() => {
@@ -25,19 +25,19 @@ const SkillsScreen = () => {
                     <h1 className="headingText font-extrabold my-1" style={{fontSize:`${fontHeaderSize}`}}>Skills </h1>
 
                     <p className="h2 my-3">
-                    Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid 
-                        fuga eum quidem. Sit sint 
-                        consectetur velit. Quisquam 
-                        quos quisquam cupiditate. Et nemo qui 
-                        impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas., 
+                    Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid
+                        fuga eum quidem. Sit sint
+                        consectetur velit. Quisquam
+                        quos quisquam cupiditate. Et nemo qui
+                        impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.,
                     </p>
                 </Col>
-                <Col xs="12">
-                    <Row>
+                <Col xs="12" xl="12" className="m-0">
+                    <Row className="m-0">
                     {
                        CardData.map((item,index)=>{
                            return(
-                               <Col xs="11" md="6" lg="6" xl="3" className="p-2" key={index}>
+                               <Col xs="11" md="6" lg="6" xl="4" className="p-1" key={index}>
                                     <CardContainer card={item}>
 
                                     </CardContainer>
