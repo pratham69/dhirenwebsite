@@ -25,7 +25,7 @@ const AboutScreen = () => {
                 </Col>
                 <Col xs="12" data-aos="fade-down">
                     <p className="h2 my-3">
-                        Hi, my name is dhiren
+                        Hi, my name is dhiren Shrensta
                     </p>
                 </Col>
                 <Col xs="12" className="my-2">
@@ -37,11 +37,7 @@ const AboutScreen = () => {
 
                             <h1 className="headingText font-extrabold" style={{fontSize:`2.5em`}}> Nepal's Top Photographer </h1>
                             <p className="h3 my-2" >
-                            Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid 
-                            fuga eum quidem. Sit sint 
-                            consectetur velit. Quisquam 
-                            quos quisquam cupiditate. Et nemo qui 
-                            impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas., 
+                            I am funuia fugiat sit in iste officiis commodi quidem hic quas., 
                             </p>
                         </Col>
                     </Row>
