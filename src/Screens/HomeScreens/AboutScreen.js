@@ -25,11 +25,7 @@ const AboutScreen = () => {
                 </Col>
                 <Col xs="12" data-aos="fade-down">
                     <p className="h2 my-3">
-                    Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid 
-                        fuga eum quidem. Sit sint 
-                        consectetur velit. Quisquam 
-                        quos quisquam cupiditate. Et nemo qui 
-                        impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas., 
+                        Hi, my name is dhiren
                     </p>
                 </Col>
                 <Col xs="12" className="my-2">
