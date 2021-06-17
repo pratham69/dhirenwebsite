@@ -72,9 +72,9 @@ const Navbar = () => {
                                 return(
                                     <Col xs={2} className="h2" key={index}>
 
-                                            <Link to={item.path}>
+                                            <a href={item.path}>
                                                 {item.icon}
-                                            </Link>
+                                            </a>
 
                                     </Col>
                                 )
