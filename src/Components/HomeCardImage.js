@@ -7,7 +7,7 @@ import TypeWriter from './TypeWriter';
 import { setTextSize } from './ConstantFunctions';
 
 
-const typeWriter = ["Animator", "Photographer", "Dancer"];
+const typeWriter = ["Film Maker", "Photographer", "Dancer"];
 
 const HomeCardImage = () => {
 

@@ -21,11 +21,8 @@ const ServicesScreen = () => {
                 <Col xs="12" data-aos="fade-down">
                     <h1 className="headingText font-extrabold my-1" style={{fontSize:`${fontHeaderSize}`}}> Services </h1>
                     <p className="h2 my-2" >
-                    Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid 
-                        fuga eum quidem. Sit sint 
-                        consectetur velit. Quisquam 
-                        quos quisquam cupiditate. Et nemo qui 
-                        impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas., 
+                    I am  fortunate enough to be able to do what I am really passionate about. I really enjoying working with people and connecting with them. 
+                    But one thing I have learnt as my time working , I love to learn from others. It’s so easy to photograph  wherever I go.
                     </p>
                 </Col>
                 <IconContext.Provider value={{color:'brown'}}>

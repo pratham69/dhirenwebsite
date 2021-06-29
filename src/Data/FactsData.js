@@ -23,7 +23,7 @@ export const FactsData = [
     {
         count: '45',
         icon : <MdCardTravel />,
-        title : 'Hot Dresses '
+        title : 'Freelancing Gigs '
     },
 
 ]

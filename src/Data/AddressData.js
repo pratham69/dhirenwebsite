@@ -5,12 +5,12 @@ import { AiFillPhone } from 'react-icons/ai';
 
 export const AddressData = [
     {
-        description: '+6969696969',
+        description: '+9779861329803',
         icon : <AiFillPhone />,
         title : 'Call'
     },
     {
-        description: 'dhiren@dadyy.com',
+        description: 'dhirenshrestha@gmail.com',
         icon : <GrMail />,
         title : 'Email'
     },

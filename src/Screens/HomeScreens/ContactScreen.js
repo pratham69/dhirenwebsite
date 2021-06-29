@@ -23,11 +23,7 @@ const ContactScreen = () => {
                 <Col xs="12">
                     <h1 className="headingText font-extrabold my-1" style={{fontSize:`${fontHeaderSize}`}}> Contact </h1>
                     <p className="h2 my-2" >
-                    Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid
-                        fuga eum quidem. Sit sint
-                        consectetur velit. Quisquam
-                        quos quisquam cupiditate. Et nemo qui
-                        impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.,
+                    If you want to get in touch  
                     </p>
                 </Col>
 
@@ -44,8 +40,8 @@ const ContactScreen = () => {
                                     return (
                                         <ListGroup.Item  className="border-0" key={index}>
                                         <Row key={index}>
-                                            <Col>
-                                                <h1 className="display-3">{item.icon}</h1>
+                                            <Col xs="12">
+                                                <h1 className="display-4">{item.icon}</h1>
                                             </Col>
                                             <Col>
                                                 <h1 className="display-5">{item.title}</h1>

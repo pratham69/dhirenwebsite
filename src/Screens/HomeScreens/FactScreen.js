@@ -24,11 +24,8 @@ const FactScreen = () => {
                 <Col xs="12" >
                     <h1 className="headingText font-extrabold my-1" style={{fontSize:`${fontHeaderSize}`}}> Facts </h1>
                     <p className="h2 my-2" >
-                    Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid
-                        fuga eum quidem. Sit sint
-                        consectetur velit. Quisquam
-                        quos quisquam cupiditate. Et nemo qui
-                        impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.,
+                    With over 3 years of professional experience, My photographic journey has assumed a rich and varied path. 
+                    I have been working as a wedding photographers and I also go some freelancing gigs at bars and resturant .
                     </p>
                 </Col>
                 <Col xs="12" className="my-3">
